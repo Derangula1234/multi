@@ -11,7 +11,12 @@ pipeline{
 				echo "I am going to school"
 				}
 			}
+		stage("Bye"){
+			steps{
+				echo "I am leaving ...Bye"
+			}
 		}
-
 	}
+
+}
 
